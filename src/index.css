@@ -1,13 +1,114 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  height: auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* navbar */
+.portfolio-logo{
+  height: 45px;
+  width: 45px;
+}
+.nav-background{
+  color: black !important;
+  width: 100%;
+}
+.toggler{
+  background-color: white !important;
+  color: black;
+  width: 40px;
+}
+.navbar-toggler-icon{
+  color: black !important;
+};
+.navbar-nav a:hover{
+  border: 2px solid green;
+}
+.collapse a:hover{
+  border-bottom: 2px solid skyblue !important;
+
+}
+
+/* first */
+.Academics-content{
+
+  box-shadow: 2px 2px 2px 2px black;
+  border-radius: 30px;
+  width: 85%;
+  text-align: center;
+  color: black;
+  padding: 20px;
+  background-color: white;
+}
+
+.first-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  padding: 100px 30px;
+  width: 100%;
+  background: url("https://img.freepik.com/free-vector/blue-white-gradient-abstract-background_53876-60241.jpg?size=626&ext=jpg&ga=GA1.1.1891954595.1697890237&semt=ais")fixed no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: -24px !important;
+  
+}
+.first-content{
+  margin-top: 40px;
+}
+.box-pic img{
+  height: 100%;
+  width: 60%;
+  border-radius: 50px;
+}
+/* skills */
+.second-main{
+  background-color: white !important;
+}
+.card{
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px black;
+} 
+.card:hover{
+  transform: scale(1.1);
+}
+.card img{
+  height: 250px;
+}
+/* about */
+.about img{
+width: 100%;
+}
+.carousel img{
+  height: 500px;
+}
+/* experience */
+.teaching{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.experience-main{
+  border: 2px solid red;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+/* projects */
+
+
+.services{
+  background: url("https://img.freepik.com/free-vector/blue-white-gradient-abstract-background_53876-60241.jpg?size=626&ext=jpg&ga=GA1.1.1891954595.1697890237&semt=ais")fixed no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.project-buton{
+  box-shadow: 2px 2px 2px 2px grey;
+  border: none;
+  padding: 5px 20px;
+}
+.footer{
+  background: url("https://img.freepik.com/free-vector/blue-white-gradient-abstract-background_53876-60241.jpg?size=626&ext=jpg&ga=GA1.1.1891954595.1697890237&semt=ais")fixed no-repeat;
+  background-position: center;
+  background-size: cover;
 }
